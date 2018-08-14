@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'mp3lame-for-ios', :exclusive => true do
+  pod "mp3lame-for-ios", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "mp3lame-for-ios", :path => "../"
+
+  
+end

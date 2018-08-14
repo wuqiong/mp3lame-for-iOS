@@ -13,5 +13,12 @@ simulator:x86_64,i386
 >./build-lame-framework.sh
 >```
 
+or 
+>```
+> pod "mp3lame-for-ios"
+>```
+
+
+
 wait a cup of tea, it builded the ==lame.framework== with the five architectures in the current directory. that' done! 
 go coding and enjoy mp3-audio-encoding in iOS projects.
